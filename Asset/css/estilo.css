@@ -10,7 +10,7 @@ body {
 }
 
 #bg-pagina {
-    background-image: url(./Asset/Img/login-back1.png);
+    background-image: url(../Asset/Img/login-back1.png);
     background-position: 50%;
     background-repeat: no-repeat;
     width: 20%;
@@ -20,7 +20,7 @@ body {
 }
 
 #bg-pagina-cadastro {
-    background-image: url(./Asset/Img/cadastro-back1.png);
+    background-image: url(../Asset/Img/cadastro-back1.png);
     background-position: 60%;
     background-repeat: no-repeat;
     width: 20%;
