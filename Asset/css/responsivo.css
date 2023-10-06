@@ -1,0 +1,210 @@
+/* PARA TELAS DE ATÉ 700PX ATE 1300PX*/
+
+@media screen and (min-width:700px) and (max-width:1300px) {
+
+    #bg-pagina {
+        scale: (0.8);
+        width: 40%;
+        height: 50vh;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 50px 0 0px 50px;
+    }
+
+    .cadastro {
+        scale: (0.8);
+        width: 50%;
+        height: 50vh;
+        border-radius: 0px 50px 50px 0px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 60vh;
+        border-radius: 50px 50px 50px 50px;
+        background-image: linear-gradient(120deg, #cb9cf701 0%, #107de96d 100%);
+    }
+
+    #cad {
+        text-align: right;
+        margin-top: 1%;
+    }
+
+    #cad button {}
+
+    #back {
+        border: none;
+        background-color: #fefefe;
+        margin-right: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    #bg-pagina {
+        width: 40%;
+        height: 50vh;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 50px 0 0px 50px;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 60vh;
+        border-radius: 50px 50px 50px 50px;
+        background-image: linear-gradient(120deg, #cb9cf701 0%, #107de96d 100%);
+    }
+
+
+    .center-responsivo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 80vh;
+        border-radius: 50px 50px 50px 50px;
+        background-image: linear-gradient(120deg, #cb9cf701 0%, #107de96d 100%);
+    }
+
+    .cadastro {
+        width: 50%;
+        height: 50vh;
+        border-radius: 0px 50px 50px 0px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+    .cadastro-responsivo {
+        width: 80%;
+        height: 50vh;
+        border-radius: 0px 50px 50px 0px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+
+    #botao1 {
+        padding: 5px;
+        width: 150px;
+        background-color: #e0c3fc;
+        border: none;
+    }
+
+    #cad {
+        width: 83%;
+        text-align: center;
+    }
+
+    #cad button {
+        margin-left: 10%;
+    }
+
+    #back {
+        border: none;
+        background-color: #fefefe;
+        margin-right: 100%;
+    }
+
+    #bg-pagina-cadastro {
+        background-image: url(/Asset/Img/cadastro-back1.png);
+        background-position: 60%;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 50vh;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 50px 0 0px 50px;
+    }
+}
+
+/* PARA TELAS DE ATÉ 440PX*/
+@media screen and (max-width:440px) {
+
+    #bg-pagina {
+        width: 40%;
+        height: 50vh;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 50px 0 0px 50px;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 60vh;
+        border-radius: 50px 50px 50px 50px;
+        background-image: linear-gradient(120deg, #cb9cf701 0%, #107de96d 100%);
+    }
+
+
+    .center-responsivo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 80vh;
+        border-radius: 50px 50px 50px 50px;
+        background-image: linear-gradient(120deg, #cb9cf701 0%, #107de96d 100%);
+    }
+
+    .cadastro {
+        width: 50%;
+        height: 50vh;
+        border-radius: 0px 50px 50px 0px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+    .cadastro-responsivo {
+        width: 70%;
+        height: 65vh;
+        border-radius: 0px 50px 50px 0px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+
+    #botao1 {
+        padding: 5px;
+        width: 150px;
+        background-color: #e0c3fc;
+        border: none;
+    }
+
+    #cad {
+        width: 83%;
+        text-align: center;
+    }
+
+    #cad button {
+        margin-left: 10%;
+    }
+
+    #back {
+        border: none;
+        background-color: #fefefe;
+        margin-right: 100%;
+    }
+
+    #bg-pagina-cadastro {
+        background-image: url(/Asset/Img/cadastro-back1.png);
+        background-position: 60%;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 65vh;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 50px 0 0px 50px;
+    }
+}
