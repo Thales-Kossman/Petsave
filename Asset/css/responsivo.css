@@ -116,7 +116,7 @@
     }
 
     #bg-pagina-cadastro {
-        background-image: url(/Asset/Img/cadastro-back1.png);
+        background-image: url(./Asset/Img/cadastro-back1.png);
         background-position: 60%;
         background-repeat: no-repeat;
         width: 50%;
@@ -199,7 +199,7 @@
     }
 
     #bg-pagina-cadastro {
-        background-image: url(/Asset/Img/cadastro-back1.png);
+        background-image: url(./Asset/Img/cadastro-back1.png);
         background-position: 60%;
         background-repeat: no-repeat;
         width: 50%;
